@@ -518,3 +518,6 @@ header.hero.home .subtitle { animation: rise 1.1s ease both; }
   header.hero.home h1, header.hero.home .kicker, header.hero.home .subtitle, .author-badge { animation: none; }
   .stagger > * { opacity: 1; transform: none; }
 }
+
+/* 作者徽章：兩行文字對齊 */
+.author-badge .author-lines { text-align: left; line-height: 1.5; }
